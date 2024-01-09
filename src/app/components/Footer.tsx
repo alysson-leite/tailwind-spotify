@@ -3,17 +3,18 @@ import Image from "next/image";
 
 export function Footer() {
     return (
-        <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex items-center justify-between">
+        <footer className="bg-zinc-900 border-t border-zinc-700 px-6 py-4 flex flex-col md:flex-row gap-6 items-center justify-between">
         <div className="flex items-center gap-3">
           <Image
             src="/ImagineDragonsEvolve.jpg"
             width={88}
             height={88}
             alt="Capa do album imagine dragons"
+            className="hidden md:block"
           />
           <div className="flex flex-col gap-1">
-            <strong className="font-normal">Rope</strong>
-            <span className="text-xs text-zinc-400">Foo Fighters</span>
+            <strong className="font-normal">Beliver</strong>
+            <span className="text-xs text-zinc-400">Imagine Dragons</span>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -28,8 +29,8 @@ export function Footer() {
           </div>
           <div className="flex items-center gap-2">
             <span className="text-xs text-zinc-400">0:31</span>
-            <div className="h-1 rounded-full w-96 bg-zinc-700">
-              <div className="bg-zinc-200 w-40 h-1 rounded-full"></div>
+            <div className="h-1 rounded-full w-80 md:w-96 bg-zinc-700">
+              <div className="bg-zinc-200 w-20 md:w-40 h-1 rounded-full"></div>
             </div>
             <span className="text-xs text-zinc-400">2:14</span>
           </div>
