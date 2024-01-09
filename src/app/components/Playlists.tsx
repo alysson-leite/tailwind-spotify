@@ -13,7 +13,7 @@ export function Playlists(){
                 alt="imagem da playlist de mega hits mix"
               />
               <strong>Mega Hit Mix</strong>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 A mega mix of 74 favorities from the last...
               </span>
             </a>
@@ -26,7 +26,7 @@ export function Playlists(){
                 alt="Imagem da playlist de Lofi Morning"
               />
               <strong>Mellow Lofi Morning</strong>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 Laid-back beats for an easygoing morning.
               </span>
             </a>
@@ -39,7 +39,7 @@ export function Playlists(){
                 alt="Imagem da playlist Rise"
               />
               <strong>Rise</strong>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 Positive and uplifting ambient instrumental...
               </span>
             </a>
@@ -52,7 +52,7 @@ export function Playlists(){
                 alt="Imagem da playlist de rock classic"
               />
               <strong>Rock Classics</strong>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 Rock legends & epic songs that continue...
               </span>
             </a>
@@ -65,7 +65,7 @@ export function Playlists(){
                 alt="Imagem da playlist de Mood Booster"
               />
               <strong>Mood Booster</strong>
-              <span className="text-xs text-zinc-400">
+              <span className="text-xs text-zinc-500">
                 Get happy with today's dose of feel-good...
               </span>
             </a>
